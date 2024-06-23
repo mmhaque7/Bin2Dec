@@ -1,40 +1,76 @@
-.app{
-    background-color: white;
-    width: 50svw;
-    margin: auto;
-    height:100svh;
-    padding: auto;
-    
+.app {
+  background-color: white;
+  width: 50svw;
+  margin: auto;
+  height: 100svh;
+  padding: auto;
 }
 
 .error-msg {
-    display: flex;
-    align-items: center;
-    background-color: #f8d7da; /* Light red background */
-    color: #721c24; /* Dark red text */
-    border: 1px solid #f5c6cb; /* Border matching the theme */
-    padding: 10px 15px; /* Spacing around the content */
-    border-radius: 5px; /* Rounded corners */
-    margin: 10px 0; /* Margin to separate from other elements */
-    font-family: Arial, sans-serif; /* Font style */
-    font-size: 20px; /* Font size */
-    font-weight: 500;
+  display: flex;
+  align-items: center;
+  background-color: #f8d7da; /* Light red background */
+  color: #721c24; /* Dark red text */
+  border: 1px solid #f5c6cb; /* Border matching the theme */
+  padding: 10px 15px; /* Spacing around the content */
+  border-radius: 5px; /* Rounded corners */
+  margin: 10px 0; /* Margin to separate from other elements */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 20px; /* Font size */
+  font-weight: 500;
 }
 
 .error-icon {
-    margin-right: 10px; /* Space between icon and text */
-    font-size: 14px; /* Size of the icon */
+  margin-right: 10px; /* Space between icon and text */
+  font-size: 14px; /* Size of the icon */
 }
 
 .error-text {
-    display: inline-block;
+  display: inline-block;
 }
 
-.binary-set{
-    border: 2px solid  #00cecb;
-    border-radius: 8px;
-    padding: 10px 15px;
-    margin: 20px 0; 
-    width: fit-content;
-    height: 50%;
+.binary-set {
+  border: 2px solid #00cecb;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin: 20px 0;
+  width: fit-content;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.binary-label {
+  font-weight: 800;
+  font-size: x-large;
+  padding-bottom: 10px;
+  color: #ff5e5b;
+  text-decoration: underline #ffed66;
+}
+
+.binary {
+  margin: 5px 10px 10px 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.decimal-fieldset {
+  border: 2px solid #00cecb;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin: 20px 0;
+  width: fit-content;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+  font-size: x-large;
+  color: #ff5e5b;
+  text-decoration: underline #ffed66;
+}
+
+h1 {
+  color: #00cecb;
+  text-decoration: underline #ff5e5b;
 }

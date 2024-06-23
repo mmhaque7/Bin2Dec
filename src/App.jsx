@@ -22,6 +22,8 @@ function App() {
 
   return (
     <div className="app">
+      <h1>Binary to Decimal</h1>
+
       <form onSubmit={handleSubmit}>
         {errMsg && (
           <div className="error-msg">
@@ -42,7 +44,7 @@ function App() {
             Convert
           </button>
         </fieldset>
-        <fieldset>Decimal : {decimalNum}</fieldset>
+        <fieldset className="decimal-fieldset">Decimal : {decimalNum}</fieldset>
       </form>
     </div>
   );
