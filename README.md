@@ -1,8 +1,8 @@
 # Binary to Decimal
 
-idea [from](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Bin2Dec-App.md)\
+idea [from](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Bin2Dec-App.md)<br/>
 
-[demo](https://mmhaque7.github.io/Bin2Dec/)\
+[demo](https://mmhaque7.github.io/Bin2Dec/)<br/>
 
 Tier: 1-Beginner
 
